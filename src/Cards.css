@@ -1,0 +1,50 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    width: 301px;
+    height: 330px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    margin: 20px 20px;
+    background-color: #D8D9DA;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+    float: left;
+    box-shadow: 4px 4px 6px rgb(196, 193, 193);
+}
+
+.card:hover{
+    transform: scale(1.05, 1.05);
+    box-shadow: 6px 6px 6px rgb(137, 135, 135);
+}
+
+.card_img img{
+    border-radius: 5px 5px 0px 0px;
+    width: 100%;
+    height: 200px;
+}
+
+.movie_title{
+    margin: 7px 9px;
+}
+
+.movie_desc p{
+    font-size: 15px;
+    color: #61677A;
+    margin: 0px 7px;
+    padding: 5px;
+}
+
+.movie_desc button{
+    padding: 8px;
+    border: 1px solid #000;
+    color: #000;
+    background-color: transparent;
+    border-radius: 8px;
+    margin: 1px 10px;
+    cursor: pointer;
+}
+  
